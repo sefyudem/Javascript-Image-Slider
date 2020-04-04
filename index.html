@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Image Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="background">
+			<img src="img/bg1.jpg" class="bg">
+			<img src="img/bg2.jpg" class="bg">
+			<img src="img/bg3.jpg" class="bg">
+			<img src="img/bg4.jpg" class="bg">
+			<img src="img/bg5.jpg" class="bg">
+		</div>
+		<div class="slider-container">
+			<div>
+				<div>
+					<div class="slider">
+						<div class="img" id="first">
+							<img src="img/bg5.jpg">
+						</div>
+						<div class="img">
+							<img src="img/bg1.jpg">
+						</div>
+						<div class="img">
+							<img src="img/bg2.jpg">
+						</div>
+						<div class="img">
+							<img src="img/bg3.jpg">
+						</div>
+						<div class="img">
+							<img src="img/bg4.jpg">
+						</div>
+						<div class="img">
+							<img src="img/bg5.jpg">
+						</div>
+						<div class="img" id="last">
+							<img src="img/bg1.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<button class="btn" id="prev"><i class="fas fa-chevron-left"></i></button>
+			<button class="btn" id="next"><i class="fas fa-chevron-right"></i></button>
+			<ul>
+				<li class="option" op-index="0"></li>
+				<li class="option" op-index="1"></li>
+				<li class="option" op-index="2"></li>
+				<li class="option" op-index="3"></li>
+				<li class="option" op-index="4"></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
